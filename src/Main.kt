@@ -8,11 +8,11 @@ fun main() {
         val c4 = Coche("Azul", "Volkswagen", "Golf", 150, "654321F", 20)
         val c5 = Coche("Verde", "Peugeot", "205d", 60, "440625N", 4)
 
-        println(c1.toString())
-        println(c2.toString())
-        println(c3.toString())
-        println(c4.toString())
-        println(c5.toString())
+        println(c1)
+        println(c2)
+        println(c3)
+        println(c4)
+        println(c5)
 
     } catch (e: Exception) {
         println(e.message)
